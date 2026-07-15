@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Naby Bani — AI Systems Architect & Quantitative Analyst. Building AI-operated holding companies, automated valuation systems, and institution-grade workflows.">
+  <title>Naby Bani — AI Systems Architect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+</head>
+<body>
+<div id="loader">
+  <div class="loader-text">Naby Bani</div>
+  <div class="loader-bar"><div class="loader-bar-fill" id="loaderFill"></div></div>
+  <div class="loader-meta" id="loaderMeta">initializing</div>
+</div>
+<canvas id="particle-canvas"></canvas>
+<div class="content">
+<nav>
+  <a href="#hero" class="nav-logo">NB<span>.</span></a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#stack">Stack</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+<section class="hero" id="hero">
+  <div class="hero-label">— 06°12'S 106°49'E · Jakarta, ID</div>
+  <h1 class="hero-title">Naby<br><span class="accent">Bani</span></h1>
+  <p class="hero-subtitle">AI Systems Architect & Quantitative Analyst building <strong style="color:var(--gold)">AI-operated holding companies</strong> — automated stock valuation, on-chain analysis, and institution-grade workflow automation.</p>
+  <div class="hero-meta">
+    <span><span class="dot"></span> IDX Pipeline v2 — Live</span>
+    <span><span class="dot"></span> 6 Repositories</span>
+    <span><span class="dot"></span> 280+ Stocks Tracked</span>
+  </div>
+  <div class="scroll-hint">Scroll to explore</div>
+</section>
+<section id="about">
+  <div class="section-label">— Profile / 001</div>
+  <h2 class="section-title fade-up">Building systems<br>that think.</h2>
+  <div class="about-grid">
+    <div class="about-text fade-up">
+      <p>I architect <strong>AI-operated holding company infrastructure</strong> — combining LLM orchestration, quantitative valuation, and automated workflows into systems that run end-to-end without human intervention.</p>
+      <p>My IDX Pipeline covers <strong>280+ Indonesian stocks</strong> with profile-based valuation (NAV for coal, Excess Return for banks, DCF for gold), backed by 600+ knowledge chunks in Supabase pgvector.</p>
+      <p>Beyond equities, I build on-chain valuation dashboards on Dune (Hyperliquid HYPE — 4 methods: SOTP, DCF, P/E buyback, P/S peers), codebase knowledge graphs (6,639 nodes across 6 repos), and n8n workflows that rival institutional setups.</p>
+      <p>Owner of <strong>Cafe Luwak</strong> — coffee business with n8n-automated operations.</p>
+    </div>
+    <div class="about-stats fade-up">
+      <div class="stat"><div class="stat-num">280+</div><div class="stat-label">IDX Stocks Tracked</div></div>
+      <div class="stat"><div class="stat-num">6,639</div><div class="stat-label">Graphify Nodes</div></div>
+      <div class="stat"><div class="stat-num">13,574</div><div class="stat-label">Code Edges Mapped</div></div>
+      <div class="stat"><div class="stat-num">600+</div><div class="stat-label">Knowledge Chunks</div></div>
+      <div class="stat"><div class="stat-num">26</div><div class="stat-label">IDX MCP Tools Built</div></div>
+      <div class="stat"><div class="stat-num">5</div><div class="stat-label">n8n Workflows</div></div>
+    </div>
+  </div>
+</section>
+<section id="work">
+  <div class="section-label">— Selected Work / 2024–2026</div>
+  <h2 class="section-title fade-up">Things I've<br>built.</h2>
+  <div class="projects-list">
+    <div class="project fade-up">
+      <div class="project-num">/01</div>
+      <div class="project-body">
+        <div class="project-name">IDX Pipeline v2</div>
+        <div class="project-desc">Automated Indonesian stock valuation system covering 280+ stocks with profile-based valuation methods (NAV for coal, Excess Return for banks, DCF for gold). Excel exports with calculation details, MCP integration, LLM classifier for sector profiling. No recommendations — pure objective comparison.</div>
+        <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">Supabase</span><span class="project-tag">MCP</span><span class="project-tag">pgvector</span><span class="project-tag">Excel</span></div>
+      </div>
+      <div class="project-link">View →</div>
+    </div>
+    <div class="project fade-up">
+      <div class="project-num">/02</div>
+      <div class="project-body">
+        <div class="project-name">AI Holding Company</div>
+        <div class="project-desc">Full-stack AI-operated holding company infrastructure: Cloudflare Workers MCP server (26 tools) → n8n AI Agent workflows (AI Agent + MCP Client Tool + OmniRoute LLM) → Supabase (13 tables + pgvector RAG) → Discord alerts. 5 IDX workflows + 4 institution-grade workflows.</div>
+        <div class="project-tags"><span class="project-tag">n8n</span><span class="project-tag">Cloudflare Workers</span><span class="project-tag">Supabase</span><span class="project-tag">Discord</span><span class="project-tag">LLM</span></div>
+      </div>
+      <div class="project-link">View →</div>
+    </div>
+    <div class="project fade-up">
+      <div class="project-num">/03</div>
+      <div class="project-body">
+        <div class="project-name">Hyperliquid HYPE Valuation</div>
+        <div class="project-desc">On-chain crypto valuation dashboard on Dune. Four-method approach: Sum-of-the-Parts (SOTP), DCF on protocol revenue, P/E via buyback yield, P/S vs peer exchanges. Key finding: at $61, HYPE prices in a scenario between Base ($22) and Bull ($109).</div>
+        <div class="project-tags"><span class="project-tag">Dune</span><span class="project-tag">SQL</span><span class="project-tag">DeFi</span><span class="project-tag">On-chain</span></div>
+      </div>
+      <div class="project-link">View →</div>
+    </div>
+    <div class="project fade-up">
+      <div class="project-num">/04</div>
+      <div class="project-body">
+        <div class="project-name">Graphify Knowledge Graph</div>
+        <div class="project-desc">Codebase analysis tool mapping 6,639 nodes and 13,574 edges across 6 repositories. AST-extracted, zero API cost. Community detection (386 communities), cross-repo dependency tracking, force-directed visualization.</div>
+        <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">AST</span><span class="project-tag">NetworkX</span><span class="project-tag">D3.js</span></div>
+      </div>
+      <div class="project-link">View →</div>
+    </div>
+    <div class="project fade-up">
+      <div class="project-num">/05</div>
+      <div class="project-body">
+        <div class="project-name">Cafe Luwak</div>
+        <div class="project-desc">Coffee business with n8n-automated operations — inventory, supplier management, menu engineering, and financial tracking. Hermes Agent profile system with dedicated cafe personality and workspace.</div>
+        <div class="project-tags"><span class="project-tag">n8n</span><span class="project-tag">Hermes Agent</span><span class="project-tag">Operations</span></div>
+      </div>
+      <div class="project-link">View →</div>
+    </div>
+  </div>
+</section>
+<section id="stack">
+  <div class="section-label">— Capabilities / Stack</div>
+  <h2 class="section-title fade-up">What I<br>work with.</h2>
+  <div class="skills-grid">
+    <div class="skill-card fade-up"><div class="skill-icon">/AI</div><div class="skill-title">LLM Orchestration</div><div class="skill-items">Hermes Agent, OpenRouter, multi-agent delegation, RAG via pgvector, MCP server architecture, Claude Skills</div></div>
+    <div class="skill-card fade-up"><div class="skill-icon">/FIN</div><div class="skill-title">Quantitative Analysis</div><div class="skill-items">IDX stock valuation (NAV, DCF, Excess Return, SOTP), crypto on-chain (4-method), sector profiling, Excel modeling</div></div>
+    <div class="skill-card fade-up"><div class="skill-icon">/OPS</div><div class="skill-title">Workflow Automation</div><div class="skill-items">n8n institution-grade workflows, AI Agent nodes, MCP Client Tool, Switch routing, Error triggers, Webhook triggers</div></div>
+    <div class="skill-card fade-up"><div class="skill-icon">/DEV</div><div class="skill-title">Engineering</div><div class="skill-items">Python, Supabase, Cloudflare Workers, GitHub, Dune SQL, REST APIs, pgvector embeddings</div></div>
+    <div class="skill-card fade-up"><div class="skill-icon">/DATA</div><div class="skill-title">Data & Knowledge</div><div class="skill-items">Jina embeddings (1024-dim), 600+ knowledge chunks, 14 investment books processed, Graphify code analysis</div></div>
+    <div class="skill-card fade-up"><div class="skill-icon">/BIZ</div><div class="skill-title">Business Operations</div><div class="skill-items">Cafe Luwak owner, holding company architecture, zero-cost infrastructure, Discord bot management</div></div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="section-label" style="justify-content:center; margin-inline:auto;">— Let's build</div>
+  <h2 class="contact-title fade-up">Let's<br><span class="accent">talk.</span></h2>
+  <p class="contact-sub fade-up">Available for AI systems architecture, quantitative tooling, and automation projects.</p>
+  <div class="contact-links fade-up">
+    <a href="https://github.com/agentpixelated" target="_blank" class="contact-link">GitHub</a>
+    <a href="mailto:nabybania2008@gmail.com" class="contact-link">Email</a>
+    <a href="https://dune.com/lovie" target="_blank" class="contact-link">Dune</a>
+  </div>
+</section>
+<footer>
+  <span>© 2026 Naby Bani — Built with the $10K Playbook</span>
+  <span>06°12'S 106°49'E</span>
+</footer>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
